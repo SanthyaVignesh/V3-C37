@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+          apiKey: "AIzaSyC-ffo5WHx9oPIiWhSm0QMK5YkhJ2FS36U",
+          authDomain: "v3mpcr.firebaseapp.com",
+          databaseURL: "https://v3mpcr-default-rtdb.firebaseio.com",
+          projectId: "v3mpcr",
+          storageBucket: "v3mpcr.appspot.com",
+          messagingSenderId: "1073920442341",
+          appId: "1:1073920442341:web:8a535095804332da52390c"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
